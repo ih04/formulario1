@@ -1,0 +1,80 @@
+body{
+	margin: 0;
+}
+
+/* fond */
+video{
+	position: fixed;
+
+	min-width: 100%;
+	min-height: 100%;
+
+	z-index: -1;
+}
+
+p{
+	text-decoration: underline;
+}
+
+.recordatorio{
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+}
+
+.container{
+	display: block;
+	position: relative;
+	width: 70%;
+	height: auto;
+	/*outline: solid blue;*/
+	margin-right: auto;
+	margin-left: auto;
+	
+	
+	
+}
+
+/* form  */
+.form{
+	width: 50%;
+	color: white;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	/*outline: solid red;*/
+	margin-right: auto;
+	margin-left: auto;
+	background: rgba(0,0,0,0.9);
+	padding: 30px;
+	box-shadow: 0 1rem 1rem rgba(0,0,0,0.3);
+
+}
+
+.form__item{
+	margin: 3px 0;
+}
+
+/* géneros */
+.gen{
+	overflow: hidden;
+	display: inline;
+	flex-direction: row;
+
+}
+
+.gen__item{
+	
+}
+
+
+/*mensajes de error*/
+
+.errores{
+	display: block;
+	position: relative;
+	margin-left:30%;
+	left: 0;
+	right: 0;
+	color: red;
+}
